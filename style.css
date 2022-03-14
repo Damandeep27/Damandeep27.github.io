@@ -47,11 +47,43 @@ aside{
    
 }
 
+a:link {
+    color: rgb(255, 249, 249);
+  }
+  
+  
+  a:visited {
+    color: rgb(242, 248, 242);
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: rgb(20, 19, 20);
+    background-color: white;
+  }
+  
+ 
+a:active{
+    color:#4e075f
+}
+
 aside div{
     background-color: #9132a8;
-    width:80%;
+    width:90%;
     padding: 20px;
     margin:10px
+    
+}
+aside h2{
+    text-align: center;
+}
+
+aside ul{
+    list-style: none;
+}
+aside li{
+    font-size: 25px;
+    margin-top: 10px;
 }
 
 
@@ -79,7 +111,14 @@ main div img{
 }
 
 #experience img{
-    float:left
+    float: left;
+    
+}
+#oppositeSide{
+    width:auto;
+    margin-left: 450px;
+    padding: 0;
+    
    
 }
 
