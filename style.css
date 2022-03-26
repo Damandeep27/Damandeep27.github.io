@@ -8,6 +8,22 @@ body{
     margin: 0;
 
 }
+
+
+@keyframes zoom {
+    0% {
+        transform: scale(0.2);
+    }
+    
+    100% {
+        transform: scale(1);
+    }
+}
+
+#introduction {
+    animation-duration: 1.5s;
+    animation-name: zoom;
+}
 #wrapper{
     
     display:flex;
@@ -59,7 +75,7 @@ a:link {
   /* mouse over link */
   a:hover {
     color: rgb(20, 19, 20);
-    background-color: white;
+    
   }
   
  
@@ -71,7 +87,8 @@ aside div{
     background-color: #9132a8;
     width:90%;
     padding: 20px;
-    margin:10px
+    margin:10px;
+    
     
 }
 aside h2{
