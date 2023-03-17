@@ -31,6 +31,22 @@ const Experience = () => {
 {/* Container */}
 <section id="timeline" className='p-0'>
     <ul className='p-0'>
+         <li>
+        <div class="card">
+          <h3 className="font-bold text-2xl" class="company">Johnny & Jak's Restaurants Ltd (January 2023 - March 202)</h3>
+          <p class="position">Full Stack Developer</p>
+          <p class="info"><span class="checkmark">✔</span> Contributed to developing a fully functional project management tool using MEAN stack similar to ClickUp
+          </p>
+          <p class="info"><span class="checkmark">✔</span> Implemented a feature to provide a detailed history of changes to enhance collaboration, accountability, and productivity</p>
+          <p class="info"><span class="checkmark">✔</span> Implemented email invitations to invite team members for easy and secure collaboration, saving time
+</p>
+          <p class="info"><span class="checkmark">✔</span> Added comment feature to facilitate communication, feedback, and collaboration for teams working on projects</p>
+               <p class="info"><span class="checkmark">✔</span> Made everything editable to make changes and updates quickly and easily to ensure information is up-to-date and accurate at
+all times</p>
+                    <p class="info"><span class="checkmark">✔</span> Added additional features like expanding and collapsing columns, dragging and dropping tasks, changing sharing permissions,
+adding tags, tooltips, adding attachments, etc.</p>
+        </div>
+      </li>
          
     <li>
         <div class="card">
